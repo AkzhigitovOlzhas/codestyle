@@ -4,7 +4,8 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "test": "echo \\\"Error: no test specified\\\" && exit 1"
+        "test": "echo \\\"Error: no test specified\\\" && exit 1",
+        "prerelease": "npm version prerelease --preid=rc && npm publish"
     },
     "repository": {
         "type": "git",
@@ -12,6 +13,11 @@
     },
     "author": "Akzhigitov Olzhas",
     "license": "ISC",
+    "devDependencies": {},
+    "publishConfig": {
+        "access": "public",
+        "registry": "https://registry.npmjs.org/"
+    },
     "dependencies": {
         "@typescript-eslint/eslint-plugin": "5.62.0",
         "eslint": "8.46.0",
@@ -29,7 +35,6 @@
         "jest": "29.6.2",
         "typescript": "5.1.6"
     },
-    "devDependencies": {},
     "peerDependencies": {
         "typescript": ">=5.1.6",
         "jest": ">=29.6.2"
