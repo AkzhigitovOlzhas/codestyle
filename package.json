@@ -32,7 +32,6 @@
     "devDependencies": {},
     "peerDependencies": {
         "typescript": ">=5.1.6",
-        "jest": ">=29.6.2",
-        "react-scripts": ">=5.1.6"
+        "jest": ">=29.6.2"
     }
 }
