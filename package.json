@@ -1,10 +1,14 @@
 {
-    "name": "codestyle",
+    "name": "@a_olzhas/codestyle",
     "version": "1.0.0",
     "description": "",
     "main": "index.js",
     "scripts": {
         "test": "echo \\\"Error: no test specified\\\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/AkzhigitovOlzhas/codestyle"
     },
     "author": "Akzhigitov Olzhas",
     "license": "ISC",
