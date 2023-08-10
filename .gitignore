@@ -1,0 +1,22 @@
+# IDE
+.idea
+.atom
+.vscode
+
+# Build
+static
+build
+cache
+stats.json
+
+# Misc
+js/node_modules
+node_modules
+
+#test
+coverage/
+
+.npmrc
+
+.env.local
+.eslintcache
